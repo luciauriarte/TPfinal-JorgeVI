@@ -1,0 +1,94 @@
+*{margin: 0px; padding: 0px}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Satisfy&family=Viaoda+Libre&display=swap');
+
+body {
+    font-family: 'Viaoda Libre', sans-serif; background-color: white
+}
+
+.header{
+    background-color: #d5e6ea; 
+}
+
+
+  .navbar-brand{
+    font-family: 'Satisfy', serif;
+    font-size: 50px;
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 5px
+
+
+}
+.navbar-nav{
+    font-family: 'Viaoda Libre', sans-serif;
+    font-size: 70px;
+    text-decoration: none;
+
+}
+    
+
+
+}
+ .carousel-item img { width: 50%
+
+
+     }
+.container{width: 100%;}
+
+
+   h1  { 
+   	font-size:30px; 
+    margin: auto;
+    color:#bc312f;
+    padding-top: 20px
+    
+    }
+
+ .imgbio {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.imgbio:hover 
+{
+    transform: scale(110%);
+
+}
+
+
+footer { 
+	 padding: 3px; 
+	 text-align: center;
+	 background: linear-gradient(180deg, #8eb5be 0%, #d5e6ea 100%); 
+	 font-family: "Viaoda Libre"
+	 
+	  }
+
+
+footer p { 
+	
+	 margin-top:15px;
+	  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

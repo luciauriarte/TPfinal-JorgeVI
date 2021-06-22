@@ -59,6 +59,14 @@ body {
 
 }
 
+.bio {
+ animation-name: fotobio;
+ animation-duration: 3s;
+ animation-delay: 0s;
+}
+
+
+
 
 footer { 
 	 padding: 3px; 
@@ -74,6 +82,18 @@ footer p {
 	 margin-top:15px;
 	  }
 
+
+@keyframes fotobio{
+    0%{
+        transform: translateX(500px);
+        
+    }
+    50%{
+        transform: translateX(-50px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
 
 
 

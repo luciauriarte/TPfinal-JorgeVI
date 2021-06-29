@@ -1,0 +1,114 @@
+* { margin: 0; padding: 0; box-sizing: border-box;}
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Carter+One&family=Cinzel+Decorative&family=Cormorant+SC:wght@300&family=Kelly+Slab&family=New+Rocker&display=swap');
+
+body { background-color:black ; color: #fff ; margin: 0; font-family: 'Cormorant SC', sans-serif;; }
+
+
+div {  display: flex; flex-flow: wrap; text-align: center;} 
+
+section {background-color: black} 
+
+p { 
+    color: #fff; 
+    text-align: center;
+    text-shadow: 0.1em 0.1em #3d0b31; 
+    font-size: 15px;  
+  }
+
+h2 { color: #fff;
+ text-decoration: none;
+ margin-top: 15px;
+ font-size: 30px;
+  } 
+ 
+
+h3 {
+    color: #fff;
+    text-align: center; 
+    border-bottom:3px ;
+    font-size: 20px; 
+    margin-left: 1px;
+    padding: 15px; 
+    background-color: #3d0b31;
+    border-radius: 10px;
+    width: 30%;
+    margin-top: 5% ;
+    margin-left: 35%;
+    transition: 1.5s;  
+    }
+
+h3:hover {
+      transform: scale(1.5);
+      transition: 1s;
+      -webkit-box-shadow: 2px 2px 5px rgb(255, 255, 255);
+      -moz-box-shadow: 2px 2px 5px rgb(255, 255, 255);
+      filter: shadow(color=#fffefe, direction=120, strength=2);
+
+  }
+
+
+@keyframes corona{ 
+    0%{transform: scale(1);}
+    50%{transform: scale(0.8);  padding:0}
+    100%{transform: scale(1);}
+}
+
+
+.error {background-color: black;
+   text-align: center; 
+   width: 48%; 
+   margin: 1%; 
+   padding: 10px; 
+   display: block; 
+   box-sizing: border-box;
+   font-size: 15px; 
+ }
+ .error p {
+    font-size: 120px; 
+    text-align: center;
+    margin-top: 20%
+
+  }
+  .corona {
+   animation-name: corona; 
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+   animation-direction: alternate-reverse;
+
+ }
+
+.error img {  width: 55%}
+
+@keyframes ataud {
+        100%{ 
+        transform: translateX(1200px);
+        
+    }
+}
+
+
+.ataud {
+    opacity: 6s;
+    width:65px;
+    animation-name: ataud;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    }
+
+.ataud:hover{
+    animation-play-state: paused;
+    
+    }
+    
+
+
+
+
+
+
+
+

@@ -13,14 +13,20 @@ body {
     background-color: #d5e6ea; 
 }
 
-
-  .navbar-brand{
-    font-family: 'Satisfy', serif;
+.navbar-brand{
+    font-family: 'Viaoda Libre', serif;
     font-size: 50px;
     text-decoration: none;
     margin-left: 40px;
-    padding: 5px
+    padding: 5px;
+;
 
+
+}
+.navbar-brand img{
+    width: 20%;
+    text-decoration: none;
+    padding: 10px;
 
 }
 .navbar-nav{
@@ -59,13 +65,68 @@ body {
 
 }
 
+.discurso{
+    width: 100%;
+    transition: 0.5s;
+}
+
+.discurso:hover 
+{
+    transform: scale(110%);
+
+}
+
+h4{
+    color: black;
+    text-align: center; 
+    border-bottom:3px ;
+    font-size: 20px; 
+    padding: 15px; 
+    background-color: #8eb5be;
+    border-radius: 10px;
+    width: 20%;
+    margin-left: 50%;
+    
+    }
+h4:hover {
+      
+      background-color: white;
+      color:#8eb5be 
+}
+
+
 .bio {
  animation-name: fotobio;
  animation-duration: 3s;
  animation-delay: 0s;
 }
 
+.padre {
+ animation-name: fotobio;
+ animation-duration: 3s;
+ animation-delay: 0s;
+}
+.hermano {
+ animation-name: fotobio;
+ animation-duration: 6s;
+ animation-delay: 0s;
+}
 
+.fotos{
+
+ }
+
+
+ .texto  { 
+ animation-name: fotobio;
+ animation-duration: 3s;
+ animation-delay: 0s;
+ }
+
+
+.form { 
+    background-color: #d5e6ea
+ }
 
 
 footer { 
@@ -95,6 +156,16 @@ footer p {
         transform: translateX(0px);
     }
 
+@media  (max-width: 560px) {
+    
+.fotos img{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+
+}
+}
 
 
 

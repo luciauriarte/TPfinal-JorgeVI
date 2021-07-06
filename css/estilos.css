@@ -76,7 +76,27 @@ body {
 
 }
 
-h4{
+.cv {
+    color: black;
+    text-align: center; 
+    border-bottom:3px ;
+    font-size: 20px; 
+    padding: 15px; 
+    background-color: #8eb5be;
+    border-radius: 10px;
+    width: 20%;
+    margin-left: 50%;
+    margin-top: 25px
+    }
+      }
+.cv:hover {
+      
+      background-color: white;
+      color:#8eb5be 
+
+}
+
+h4 {
     color: black;
     text-align: center; 
     border-bottom:3px ;
@@ -92,6 +112,7 @@ h4:hover {
       
       background-color: white;
       color:#8eb5be 
+
 }
 
 
@@ -156,9 +177,17 @@ footer p {
         transform: translateX(0px);
     }
 
+
+@media screen and (min-width: 561px) and (max-width: 960px) {
+    .bio img{ 
+    width: 100%
+      }
+
+
+}
 @media  (max-width: 560px) {
     
-.fotos img{
+.imgbio{
         display: flex;
         flex-direction: column;
         margin: auto;
